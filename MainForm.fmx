@@ -1,0 +1,89 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 591
+  ClientWidth = 439
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object Memo1: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    Align = Client
+    Size.Width = 439.000000000000000000
+    Size.Height = 358.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Viewport.Width = 431.000000000000000000
+    Viewport.Height = 350.000000000000000000
+  end
+  object Layout1: TLayout
+    Align = Top
+    Size.Width = 439.000000000000000000
+    Size.Height = 233.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    object Button1: TButton
+      Position.X = 16.000000000000000000
+      Position.Y = 104.000000000000000000
+      Size.Width = 177.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      Text = 'Init Bluetooth'
+      OnClick = Button1Click
+    end
+    object Button2: TButton
+      Position.X = 200.000000000000000000
+      Position.Y = 104.000000000000000000
+      Size.Width = 177.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = 'Setup ChatService'
+      OnClick = Button2Click
+    end
+    object Button4: TButton
+      Position.X = 16.000000000000000000
+      Position.Y = 152.000000000000000000
+      Size.Width = 177.000000000000000000
+      Size.Height = 44.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 6
+      Text = 'Connect ChatService'
+      OnClick = Button4Click
+    end
+    object Button3: TButton
+      Position.X = 200.000000000000000000
+      Position.Y = 152.000000000000000000
+      Size.Width = 177.000000000000000000
+      Size.Height = 44.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 4
+      Text = 'Start ChatService'
+      OnClick = Button3Click
+    end
+    object Button5: TButton
+      Position.X = 24.000000000000000000
+      Position.Y = 24.000000000000000000
+      Size.Width = 169.000000000000000000
+      Size.Height = 44.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 8
+      Text = 'Auto connect'
+      OnClick = Button5Click
+    end
+    object Button6: TButton
+      Position.X = 200.000000000000000000
+      Position.Y = 24.000000000000000000
+      Size.Width = 169.000000000000000000
+      Size.Height = 44.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 7
+      Text = 'Scan'
+      OnClick = Button6Click
+    end
+  end
+end
